@@ -46,7 +46,7 @@ public class HomeController {
 	// TODO : REST API »£√‚
 	@ResponseBody
 	@RequestMapping(value="/VesionCheck", method= RequestMethod.GET)
-	public HashMap<String, String> test2() {
+	public HashMap<String, String> VesionCheck() {
 	     HashMap<String, String> map = new HashMap<>();
 	     map.put("serverversion", "1.0.0.1");
 	     return map;
